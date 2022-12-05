@@ -23,4 +23,8 @@ public class ProductController {
     public String editProduct(){
         return "Welcome to the page of product edit";
     }
+    @GetMapping("/view")
+    public String viewAllProduct(){
+        return "Welcome to view all products";
+    }
 }
